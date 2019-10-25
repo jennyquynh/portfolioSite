@@ -1,0 +1,561 @@
+
+/*-------------------------------------------------- nav bar --------------------------------------------*/
+
+/*gradient*/
+.header-color {
+  background: #42275a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.nav-bar {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+.title {
+  text-decoration: none;
+  color: white;
+}
+
+
+/*--------------------------------------------- landing page --------------------------------------------*/
+
+/*gradient*/
+.landing-grid {
+  background: #42275a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+
+  /*centering*/
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*image in the middle of the page*/
+.profile-pic {
+  height: 34%;
+  padding-top: 9em;
+  animation: drop 1.5s ease;
+}
+
+/*body of the page*/
+.banner-text {
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  animation: drop 1.2s ease;
+}
+
+/*title of paragraph*/
+.banner-text h1 {
+  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+/*paragraph*/
+.banner-text p {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+/* horizontal line under title */
+.banner-text hr {
+  border-top: 3px solid white;
+  opacity: .7;
+  width: 75%;
+  margin: auto;
+}
+
+/*--------------------------------------------- about me page --------------------------------------------*/
+
+#aboutMe-background {
+  background: #42275a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+
+  /*centering*/
+  text-align: left;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2em;
+}
+
+.aboutMe-fade {
+  animation: fade 1s ease;
+}
+
+.aboutPic {
+  margin-top:4em;
+  margin-bottom: 2em;
+}
+
+.aboutMe-body {
+  padding-left: 3em;
+  padding-right:3em;
+}
+
+.aboutMe-body h3 {
+  color: white;
+  padding-top: 1em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.aboutMe-body p {
+  padding-top: 1em;
+  color: white;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.aboutMe-pic {
+  max-height: 450px;
+  min-width: 270px;
+  padding-left: 4em;
+}
+
+
+/*--------------------------------------------- resume page --------------------------------------------*/
+
+.resume-body {
+  animation: fade 1s ease;
+}
+
+.resume-left-col {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  padding-right: 1em;
+}
+
+.resume-left-col h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.resume-left-col h4 {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: .7;
+}
+
+.resume-left-col hr {
+  margin-top: 5px;
+}
+
+.resume-contacts {
+  margin-top: 20px;
+}
+
+.resume-contacts h4 {
+  font-size: 17px;
+  margin-top: 20px;
+  opacity: 1;
+}
+
+.resume-contacts p {
+  font-size: 15px;
+  margin-bottom: 0px;
+  opacity: .7;
+}
+
+.resume-contacts a {
+  text-decoration: none;
+  color: white;
+  opacity: .7;
+  font-size: 15px;
+}
+
+.resume-right-col {
+  background: #27221F;
+  opacity: .8;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  padding: 3em;
+}
+
+.resume-right-col h2 {
+  margin-top: 0;
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  opacity: .7;
+  border-bottom: 1px solid white;
+  display: inline-block;
+}
+
+.resume-right-col h4 {
+  margin: 0;
+  font-size: 19px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.resume-right-col h5 {
+  font-size: 15px;
+  opacity: .5;
+  margin-top: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.resume-section {
+  margin-bottom: 4em;
+}
+
+.resume-section p {
+  margin-bottom: 2em;
+}
+
+#education {
+  padding: 0px;
+  margin: 0px;
+}
+
+#education p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#education ul {
+  margin: 0px;
+}
+
+
+/*--------------------------------------------- projects page --------------------------------------------*/
+
+.background {
+  background: #42275a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+
+  /*centering*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-body {
+  animation: fade 1s ease;
+}
+
+.projects-body h1 {
+  margin: 0;
+  padding-top: 1em;
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.projects-body h3 {
+  margin: 0;
+  padding-top: 2em;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-align: left;
+}
+
+#projectRow {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.project_description p {
+  padding-top: 1em;
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.project_description li {
+  font-size: 18px;
+}
+
+#projectLink {
+  background: #42275a;
+  border-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  padding: 0px 20px;
+  border-top-left-radius: 7px 7px;
+  border-top-right-radius: 7px 7px;
+  border-bottom-left-radius: 7px 7px;
+  border-bottom-right-radius: 7px 7px;
+}
+
+#projectLink a {
+  text-decoration: none;
+  color: white;
+}
+
+#projectLink:hover
+{
+  background-color: #734b6d;
+  cursor: pointer;
+}
+
+.project-pic {
+  max-width: 300px;
+  min-height: 200px;
+  margin-top: 4em;
+}
+
+/*--------------------------------------------- contact me page --------------------------------------------*/
+
+.contact-fade {
+  animation: fade 1s ease;
+}
+#contact-body {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#contact-left {
+  margin-top: 4em;
+  margin-bottom: 6em;
+}
+
+.contact-left-col {
+  background: #27221F;
+  opacity: .8;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  padding: 3em;
+  padding-bottom: 5em;
+}
+
+.contact-left-col h1 {
+  opacity: .7;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.contact-left-col p {
+  padding-top: 1em;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.contact-left-col a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-right-col h1 {
+  margin: 0;
+  padding-top: 2em;
+  margin-bottom: 1em;
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.contact-right-col p {
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-top: 1em;
+  color: white;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*--------------------------------------------- animations --------------------------------------------*/
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*--------------------------------------------- overrides --------------------------------------------*/
+
+.landingLink {
+  color: white;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#navLink {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+.material-icons {
+  visibility: hidden;
+}
+
+.mdl-layout__drawer-button {
+  visibility: hidden;
+}
+
+/*--------------------------------------------- media queries --------------------------------------------*/
+
+#landingLinkMobileTitle {
+  font-size: 24px;
+  color: gray;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#landingLinkMobile {
+  color: gray;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*iphone*/
+@media only screen and (max-width: 600px) {
+
+  .landing-grid {
+    overflow-y: scroll;
+  }
+  /*image in the middle of the page*/
+  .profile-pic {
+    height: 200px;
+    padding-top: 6em;
+    animation: drop 1.5s ease;
+  }
+
+  /*title of paragraph*/
+  .banner-text h1 {
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: inline-block;
+  }
+
+  /*paragraph*/
+  .banner-text p {
+    padding-top: 1em;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+  }
+
+  .material-icons {
+    visibility: visible;
+    color: white;
+  }
+
+  .mdl-layout__drawer-button {
+    visibility: visible;
+  }
+
+  #mobileAbout {
+    margin: 0em;
+  }
+
+  #projectRow {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  #projectLink {
+    margin-bottom: 1em;
+  }
+
+  .contact-left-col {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #contact-left {
+    width: 400px;
+  }
+
+  .contact-right-col p {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .contact-left-col p {
+    word-break: break-all;
+  }
+
+  .project-pic {
+    max-width: 250px;
+    min-height: 160px;
+    margin-top: 4em;
+    margin-top: 0;
+    padding-top: 2em;
+  }
+
+  .aboutMe-body {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 1em;
+    margin-right: 1em;
+    overflow-x: scroll;
+  }
+
+  .aboutMe-body h3 {
+    font-size: 30px;
+    word-break: break-all;
+  }
+  
+  .aboutMe-body p {
+    font-size: 20px;
+    word-break: break-all;
+  }
+
+  #aboutmeMobile {
+    width: 300px;
+  }
+  
+  .aboutMe-pic {
+    max-height: 400px;
+    min-width: 220px;
+    padding-left: 0em;
+  }
+}
