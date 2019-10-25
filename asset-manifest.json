@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/client/static/css/main.3923468f.chunk.css",
-    "main.js": "/client/static/js/main.747ca771.chunk.js",
-    "main.js.map": "/client/static/js/main.747ca771.chunk.js.map",
-    "runtime-main.js": "/client/static/js/runtime-main.bac1d710.js",
-    "runtime-main.js.map": "/client/static/js/runtime-main.bac1d710.js.map",
-    "static/css/2.60a6b8e0.chunk.css": "/client/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.4c770371.chunk.js": "/client/static/js/2.4c770371.chunk.js",
-    "static/js/2.4c770371.chunk.js.map": "/client/static/js/2.4c770371.chunk.js.map",
-    "index.html": "/client/index.html",
-    "precache-manifest.08deb73f41587381d7c75956041c99ca.js": "/client/precache-manifest.08deb73f41587381d7c75956041c99ca.js",
-    "service-worker.js": "/client/service-worker.js",
-    "static/css/2.60a6b8e0.chunk.css.map": "/client/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.3923468f.chunk.css.map": "/client/static/css/main.3923468f.chunk.css.map"
+    "main.css": "/portfolioSite/static/css/main.3923468f.chunk.css",
+    "main.js": "/portfolioSite/static/js/main.b985d752.chunk.js",
+    "main.js.map": "/portfolioSite/static/js/main.b985d752.chunk.js.map",
+    "runtime-main.js": "/portfolioSite/static/js/runtime-main.861f0489.js",
+    "runtime-main.js.map": "/portfolioSite/static/js/runtime-main.861f0489.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/portfolioSite/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.4c770371.chunk.js": "/portfolioSite/static/js/2.4c770371.chunk.js",
+    "static/js/2.4c770371.chunk.js.map": "/portfolioSite/static/js/2.4c770371.chunk.js.map",
+    "index.html": "/portfolioSite/index.html",
+    "precache-manifest.38dfbb8f369aa7f2df61bd59f840de07.js": "/portfolioSite/precache-manifest.38dfbb8f369aa7f2df61bd59f840de07.js",
+    "service-worker.js": "/portfolioSite/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/portfolioSite/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.3923468f.chunk.css.map": "/portfolioSite/static/css/main.3923468f.chunk.css.map"
   }
 }
