@@ -13,7 +13,6 @@ class Contacts extends Component {
                             {/** ----------------------------------- left column --------------------------------- */}
                             <Cell className="contact-left-col" id="contact-left" col={4}>
                             <h1>Contacts</h1>
-
                             <div>
                             <p>Phone Number: (337) 789 - 2610</p>
                             <p>Email: jennyquynhphuong@gmail.com</p>
