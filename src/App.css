@@ -526,7 +526,7 @@ body {
   }
 
   .contact-left-col p {
-    word-break: break-word;
+    word-break: break-all;
   }
 
   .project-pic {
@@ -547,12 +547,12 @@ body {
 
   .aboutMe-body h3 {
     font-size: 30px;
-    word-break: break-all;
+    word-break: break-word;
   }
   
   .aboutMe-body p {
     font-size: 20px;
-    word-break: break-all;
+    word-break: break-word;
   }
 
   #aboutmeMobile {
@@ -572,14 +572,10 @@ body {
   .landing-grid {
     overflow-y: scroll;
   }
-  /*image in the middle of the page*/
-  .profile-pic {
-    height: 200px;
-  }
 
   /*image in the middle of the page*/
   .profile-pic {
-    height: 20%;
+    height: 30%;
     padding-top: 6em;
     animation: drop 1.5s ease;
   }
@@ -658,12 +654,12 @@ body {
 
   .aboutMe-body h3 {
     font-size: 30px;
-    word-break: break-all;
+    word-break: break-word;
   }
   
   .aboutMe-body p {
     font-size: 20px;
-    word-break: break-all;
+    word-break: break-word;
   }
 
   #aboutmeMobile {
@@ -674,5 +670,11 @@ body {
     max-height: 400px;
     min-width: 220px;
     padding-left: 0em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profile-pic {
+    height: 100px;
   }
 }

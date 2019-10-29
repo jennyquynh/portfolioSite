@@ -22,7 +22,7 @@ class About extends Component {
                                         the joy of completing a project with my team.
                                     </p>
 
-                                    <p>In the upcoming years of my life, I hope to find a career that will challenge and inspire me in the same way that CAPE. I look forward to 
+                                    <p>In the upcoming years of my life, I hope to find a career that will challenge and inspire me in the same way that CAPE has. I look forward to 
                                         diversifying my programming knowledge and being a part of meaningful projects!
                                     </p>
                                 </div>
