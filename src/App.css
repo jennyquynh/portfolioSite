@@ -1,3 +1,8 @@
+body {
+  background: #42275a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 /*-------------------------------------------------- nav bar --------------------------------------------*/
 
@@ -452,6 +457,111 @@
   text-decoration: none;
   font-size: 20px;
   font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .landing-grid {
+    overflow-y: scroll;
+  }
+  /*image in the middle of the page*/
+  .profile-pic {
+    height: 200px;
+    padding-top: 6em;
+    animation: drop 1.5s ease;
+  }
+
+  /*title of paragraph*/
+  .banner-text h1 {
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: inline-block;
+  }
+
+  /*paragraph*/
+  .banner-text p {
+    padding-top: 1em;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+  }
+
+  .material-icons {
+    visibility: visible;
+    color: white;
+  }
+
+  .mdl-layout__drawer-button {
+    visibility: visible;
+  }
+
+  #mobileAbout {
+    margin: 0em;
+  }
+
+  #projectRow {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  #projectLink {
+    margin-bottom: 1em;
+  }
+
+  .contact-left-col {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #contact-left {
+    width: 400px;
+  }
+
+  .contact-right-col p {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .contact-left-col p {
+    word-break: break-all;
+  }
+
+  .project-pic {
+    max-width: 250px;
+    min-height: 160px;
+    margin-top: 4em;
+    margin-top: 0;
+    padding-top: 2em;
+  }
+
+  .aboutMe-body {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 1em;
+    margin-right: 1em;
+    overflow-x: scroll;
+  }
+
+  .aboutMe-body h3 {
+    font-size: 30px;
+    word-break: break-all;
+  }
+  
+  .aboutMe-body p {
+    font-size: 20px;
+    word-break: break-all;
+  }
+
+  #aboutmeMobile {
+    width: 300px;
+  }
+  
+  .aboutMe-pic {
+    max-height: 400px;
+    min-width: 220px;
+    padding-left: 0em;
+  }
 }
 
 /*iphone*/
