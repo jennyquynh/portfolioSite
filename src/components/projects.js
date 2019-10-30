@@ -112,9 +112,9 @@ class Projects extends Component {
                                                 to this project thus far includes:
 
                                                 <ul>
+                                                    <li>Created a WCF contract that utilizes LINQ to serve data from the C# and SQL backend to the frontend</li>
                                                     <li>creation of the website's login and register page using HTML and Bootswatch</li>
                                                     <li>implementation of routing between pages via Express</li>
-                                                    <li>designing the WCF contract using C# and LINQ</li>
                                                 </ul>
                                             </p>
                                         </div>
