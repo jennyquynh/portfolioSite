@@ -171,7 +171,7 @@ class Projects extends Component {
                                             </p>
 
                                             <Button id="projectLink">
-                                                <a href="https://github.com/jennyquynh/PortfolioWebsite" rel="noopener noreferrer" target="_blank" className="contact-links">
+                                                <a href="https://github.com/jennyquynh/portfolioSite/tree/master" rel="noopener noreferrer" target="_blank" className="contact-links">
                                                     View in Github
                                                 </a>
                                             </Button>
