@@ -97,11 +97,11 @@ class Resume extends Component {
                                     <h2>SKILLS</h2>
 
                                     <Skills
-                                    skill="Java"
-                                    progress="80"/>
+                                    skill="C#"
+                                    progress="75"/>
 
                                     <Skills
-                                    skill="Javascript"
+                                    skill="Java"
                                     progress="75"/>    
 
                                     <Skills
@@ -109,11 +109,11 @@ class Resume extends Component {
                                     progress="60"/>
 
                                     <Skills
-                                    skill="SQL"
+                                    skill="SQL and LINQ"
                                     progress="50"/>
 
                                     <Skills
-                                    skill="Git"
+                                    skill="Command Line Git"
                                     progress="75"/>
                                 </div>
 
