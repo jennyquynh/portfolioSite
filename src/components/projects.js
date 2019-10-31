@@ -76,7 +76,7 @@ class Projects extends Component {
 
                                             <p>
                                                 In order to properly view the data that the CloudSat 8 balloon relayed back to the ground via ham radio, 
-                                                I created a .NET application. The program received, parsed, and displayed the data into its appropriate 
+                                                I created a .NET application. The WPF application received, parsed, and displayed the data into its appropriate 
                                                 fields before finally storing it into an Excel sheet. The balloon's coordinates were then traced to the 
                                                 GUI's live map. Cut down and beacon commands could also be sent via the GUI's buttons.
                                             </p>
@@ -112,7 +112,7 @@ class Projects extends Component {
                                                 to this project thus far includes:
 
                                                 <ul>
-                                                    <li>Created a WCF contract that utilizes LINQ to serve data from the C# and SQL backend to the frontend</li>
+                                                    <li>Created a WCF contract that utilizes LINQ to connect a C# and SQL backend to a javascript frontend</li>
                                                     <li>creation of the website's login and register page using HTML and Bootswatch</li>
                                                     <li>implementation of routing between pages via Express</li>
                                                 </ul>

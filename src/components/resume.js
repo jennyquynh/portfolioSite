@@ -49,6 +49,14 @@ class Resume extends Component {
                                     </a>
                                 </div>
 
+                                <div>
+                                <Button id="resumeLink">
+                                                <a href="https://docs.google.com/document/d/16dCeVQ146sz97VwzaAT8gUuVOQZS0CTowghRjneVmqY/edit?usp=sharing" rel="noopener noreferrer" target="_blank" className="contact-links">
+                                                    Download Resume
+                                                </a>
+                                            </Button>
+                                </div>
+
                             </Cell>
 
                             {/** ---------------------------- right column ------------------------------- */}
