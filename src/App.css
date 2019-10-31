@@ -251,6 +251,7 @@ body {
   letter-spacing: 2px;
   height: 50px;
   margin-top: 10%;
+  margin-bottom: 10%;
   padding: 0px 20px;
   margin-right: 20%;
   margin-left: 20%;
@@ -598,6 +599,12 @@ body {
 /*iphone*/
 @media only screen and (max-width: 600px) {
 
+  #resumeLink {
+    word-wrap: none;
+    margin-right: 10%;
+    margin-left: 10%;;
+  }
+
   .landing-grid {
     overflow-y: scroll;
   }
@@ -705,5 +712,11 @@ body {
 @media only screen and (max-width: 400px) {
   .profile-pic {
     height: 100px;
+  }
+
+  #resumeLink {
+    word-wrap: none;
+    margin-right: 5%;
+    margin-left: 5%;;
   }
 }
