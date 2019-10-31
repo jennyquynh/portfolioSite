@@ -126,7 +126,7 @@ class Resume extends Component {
 
                                     <p>
                                     CAPE is a student led organization focused on launching pico-satellites and weather balloons. The program's software team
-                                    designs code in order to support the hardware team's payloads. These applications ranges anywhere from a satellite's firmware, 
+                                    designs code in order to support the hardware team's payloads. These applications range anywhere from a satellite's firmware, 
                                     to websites that display data, to GUIs that interact with the projects.
                                     </p>
                                 </div>
