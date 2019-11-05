@@ -122,7 +122,7 @@ class Resume extends Component {
                                     <h2>EXPERIENCE</h2>
 
                                     <h4>CAPE</h4>
-                                    <h5>Software Engineer</h5>
+                                    <h5>Software Engineer:  2018 - Present</h5>
 
                                     <p>
                                     CAPE is a student led organization focused on launching pico-satellites and weather balloons. The program's software team
