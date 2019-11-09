@@ -303,9 +303,10 @@ body {
 }
 
 .projects-body h3 {
+  border-bottom: 1px solid white;
   margin: 0;
-  padding-top: 2em;
-  font-size: 25px;
+  padding-top: 4em;
+  font-size: 28px;
   font-family: 'Quicksand', sans-serif;
   color: white;
   text-align: left;
@@ -321,7 +322,8 @@ body {
 }
 
 .project_description p {
-  padding-top: 1em;
+  opacity: .9;
+  padding-top: 2em;
   text-align: left;
   color: white;
   font-size: 18px;
@@ -329,7 +331,9 @@ body {
 }
 
 .project_description li {
+  opacity: .9;
   font-size: 18px;
+  padding-top: 5px;
 }
 
 #projectLink {
@@ -340,7 +344,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 2px;
   height: 50px;
-  margin-top: 20px;
+  margin-top: 2em;
   padding: 0px 20px;
   border-top-left-radius: 7px 7px;
   border-top-right-radius: 7px 7px;
@@ -362,7 +366,7 @@ body {
 .project-pic {
   max-width: 300px;
   min-height: 200px;
-  margin-top: 4em;
+  margin-top: 9em;
 }
 
 /*--------------------------------------------- contact me page --------------------------------------------*/

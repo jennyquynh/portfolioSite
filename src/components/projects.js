@@ -5,6 +5,7 @@ import gui from '../CloudSat8Gui.png';
 import cape2 from '../cape2.jpeg';
 import android from '../AndroidApp.png';
 import portfolio from '../portfolioProject.png'
+import QtNotepad from '../QtNotepad.png'
 
 class Projects extends Component {
     render() {
@@ -38,10 +39,12 @@ class Projects extends Component {
                                             <h3>CloudSat 8 Firmware</h3>
 
                                             <p>
-                                                CloudSat 8 is a weather balloon that successfully launched in August 2019. It's payload consisted 
-                                                of an Arduino Mega, a camera, GoPro, and multiple data sensors including GPS, temperature, altitude, 
-                                                humidity, speed, and temperature. The payload reached an impressive altitude of 100,000 
-                                                before naturally bursting and parachuting back down. My contribution to this project consisted of:
+                                                CloudSat 8 is a weather balloon that successfully launched in August 2019. <br/><br/> 
+                                                
+                                                It's payload consisted of an Arduino Mega, a camera, a GoPro, and multiple data sensors including: GPS, temperature, altitude, 
+                                                humidity, speed, and temperature. The balloon reached an impressive altitude of 100,000 before naturally bursting and parachuting back down. <br/><br/>
+                                                
+                                                My contribution to this project consisted of:
                                                 
                                                 <ul>
                                                     <li>programming of the temperature, humidity, and pressure sensor (BME280)</li>
@@ -76,7 +79,9 @@ class Projects extends Component {
 
                                             <p>
                                                 In order to properly view the data that the CloudSat 8 balloon relayed back to the ground via ham radio, 
-                                                I created a .NET application. The WPF application received, parsed, and displayed the data into its appropriate 
+                                                I created a .NET GUI. <br/><br/>
+                                                
+                                                The WPF application received, parsed, and displayed the data into its appropriate 
                                                 fields before finally storing it into an Excel sheet. The balloon's coordinates were then traced to the 
                                                 GUI's live map. Cut down and beacon commands could also be sent via the GUI's buttons.
                                             </p>
@@ -106,17 +111,48 @@ class Projects extends Component {
                                             <h3>CAPE 3 Website</h3>
 
                                             <p>
-                                                CAPE 3 is the most recent satellite to be launched by the CAPE student organization. The CAPE 3 website 
-                                                is currently being developed, and will use a node.js frontend to connect to a C# server and SQL database. 
-                                                Users will be able to log in and view certain satellite data depending on the user's permission. My contribution 
-                                                to this project thus far includes:
+                                                CAPE 3 is the most recent satellite to be launched by the CAPE student organization. <br/><br/>
+                                                
+                                                The CAPE 3 website is currently being developed, and will use a javascript frontend to connect to a C# server and SQL database. 
+                                                Users will be able to log in and view certain satellite data depending on the user's permission. <br/><br/>
+                                                
+                                                My contribution to this project thus far includes:
 
                                                 <ul>
-                                                    <li>Created a WCF contract that utilizes LINQ to connect a C# and SQL backend to a javascript frontend</li>
+                                                    <li>Created a WCF contract that utilizes LINQ to connect the C# and SQL backend to a javascript frontend</li>
                                                     <li>creation of the website's login and register page using HTML and Bootswatch</li>
                                                     <li>implementation of routing between pages via Express</li>
                                                 </ul>
                                             </p>
+                                        </div>
+                                    </Cell>
+                                </Grid>
+
+                                {/** --------------------------- QtNotepad -------------------------- */}
+                                <Grid id="projectRow">
+                                    {/** picture */}
+                                    <Cell col ={4}>
+                                        <img 
+                                        src={QtNotepad}
+                                        alt="Qt Notepad"
+                                        className="project-pic"/>
+                                    </Cell>
+
+                                    {/** body */}
+                                    <Cell col ={8}>
+                                        <div className="project_description">
+                                            <h3>Qt Notepad App</h3>
+
+                                            <p>
+                                                My first Qt application is a small text editor that accounts for creating, saving, opening, and printing
+                                                new text files. This project was created for the purpose of becoming more familiar with using Qt.
+                                            </p>
+
+                                            <Button id="projectLink">
+                                                <a href="https://github.com/jennyquynh/QtNotepad" rel="noopener noreferrer" target="_blank" className="contact-links">
+                                                    View in Github
+                                                </a>
+                                            </Button>
                                         </div>
                                     </Cell>
                                 </Grid>
