@@ -6,6 +6,7 @@ import cape2 from '../cape2.jpeg';
 import android from '../AndroidApp.png';
 import portfolio from '../portfolioProject.png'
 import QtNotepad from '../QtNotepad.png'
+import QtGPA from '../QtGPA.png'
 
 class Projects extends Component {
     render() {
@@ -124,6 +125,38 @@ class Projects extends Component {
                                                     <li>implementation of routing between pages via Express</li>
                                                 </ul>
                                             </p>
+                                        </div>
+                                    </Cell>
+                                </Grid>
+
+                                {/** --------------------------- QtGPA -------------------------- */}
+                                <Grid id="projectRow">
+                                    {/** picture */}
+                                    <Cell col ={4}>
+                                        <img 
+                                        src={QtGPA}
+                                        alt="Qt GPA Calculator"
+                                        className="project-pic"/>
+                                    </Cell>
+
+                                    {/** body */}
+                                    <Cell col ={8}>
+                                        <div className="project_description">
+                                            <h3>Qt GPA Calculator</h3>
+
+                                            <p>
+                                                A Qt application that computes the user's GPA once course information is supplied. <br/><br/>
+                                                
+                                                The calculator uses three custom slots: one that adds a new course groupbox, one that deletes a course's group box,
+                                                and one that calculates and displays the total GPA. Each slot is connected to individual buttons, and is triggered by the 
+                                                "clicked" signal of that button.
+                                            </p>
+
+                                            <Button id="projectLink">
+                                                <a href="https://github.com/jennyquynh/Qt-GPA-Calculator" rel="noopener noreferrer" target="_blank" className="contact-links">
+                                                    View in Github
+                                                </a>
+                                            </Button>
                                         </div>
                                     </Cell>
                                 </Grid>
