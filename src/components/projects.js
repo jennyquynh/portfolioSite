@@ -7,6 +7,7 @@ import android from '../AndroidApp.png';
 import portfolio from '../portfolioProject.png'
 import QtNotepad from '../QtNotepad.png'
 import QtGPA from '../QtGPA.png'
+import SpotifySearcher from '../SpotifySearcher.png'
 
 class Projects extends Component {
     render() {
@@ -24,6 +25,7 @@ class Projects extends Component {
 
                             {/** --------------------------- body start -------------------------- */}
                             <div>
+
                                 {/** --------------------------- CloudSat 8 Firmware -------------------------- */}
                                 <Grid id="projectRow">
                                     {/** picture */}
@@ -125,6 +127,36 @@ class Projects extends Component {
                                                     <li>implementation of routing between pages via Express</li>
                                                 </ul>
                                             </p>
+                                        </div>
+                                    </Cell>
+                                </Grid>
+
+                                {/** --------------------------- Spotify Searcher -------------------------- */}
+                                <Grid id="projectRow">
+                                    {/** picture */}
+                                    <Cell col ={4}>
+                                        <img 
+                                        src={SpotifySearcher}
+                                        alt="SpotifySearcher"
+                                        className="project-pic"/>
+                                    </Cell>
+
+                                    {/** body */}
+                                    <Cell col ={8}>
+                                        <div className="project_description">
+                                            <h3>SpotifySearcher</h3>
+
+                                            <p>
+                                                My first Angular 2 application. The website utilizes Spotify's API
+                                                to display artists and albums based on the user's search. It also provides
+                                                links to the corresponding Spotify pages.
+                                            </p>
+
+                                            <Button id="projectLink">
+                                                <a href="https://github.com/jennyquynh/SpotifySearcher" rel="noopener noreferrer" target="_blank" className="contact-links">
+                                                    View in Github
+                                                </a>
+                                            </Button>
                                         </div>
                                     </Cell>
                                 </Grid>
