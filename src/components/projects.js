@@ -8,6 +8,7 @@ import portfolio from '../portfolioProject.png'
 import QtNotepad from '../QtNotepad.png'
 import QtGPA from '../QtGPA.png'
 import SpotifySearcher from '../SpotifySearcher.png'
+import ToDoList from '../To-Do List.png'
 
 class Projects extends Component {
     render() {
@@ -116,15 +117,15 @@ class Projects extends Component {
                                             <p>
                                                 CAPE 3 is the most recent satellite to be launched by the CAPE student organization. <br/><br/>
                                                 
-                                                The CAPE 3 website is currently being developed, and will use a javascript frontend to connect to a C# server and SQL database. 
-                                                Users will be able to log in and view certain satellite data depending on the user's permission. <br/><br/>
+                                                The CAPE 3 website is currently being developed, and will allow users to login and view certain satellite data and edit
+                                                certain configurations based on their permissions. <br/><br/>
                                                 
-                                                My contribution to this project thus far includes:
+                                                My contribution thus far includes:
 
                                                 <ul>
-                                                    <li>Created a WCF contract that utilizes LINQ to connect the C# and SQL backend to a javascript frontend</li>
-                                                    <li>creation of the website's login and register page using HTML and Bootswatch</li>
+                                                    <li>creating an API to connect to a SQL database</li>
                                                     <li>implementation of routing between pages via Express</li>
+                                                    <li>creation of the website's login and register page using HTML and Bootswatch</li>
                                                 </ul>
                                             </p>
                                         </div>
@@ -160,6 +161,37 @@ class Projects extends Component {
                                         </div>
                                     </Cell>
                                 </Grid>
+
+
+                                {/** --------------------------- To-Do List -------------------------- */}
+                                <Grid id="projectRow">
+                                    {/** picture */}
+                                    <Cell col ={4}>
+                                        <img 
+                                        src={ToDoList}
+                                        alt="To-Do List"
+                                        className="project-pic"/>
+                                    </Cell>
+
+                                    {/** body */}
+                                    <Cell col ={8}>
+                                        <div className="project_description">
+                                            <h3>To-Do List</h3>
+
+                                            <p>
+                                                A simple application that allows users to add and remove tasks to a to-do list. 
+                                                Build using MongoDB, Express, and Angular 2.
+                                            </p>
+
+                                            <Button id="projectLink">
+                                                <a href="https://github.com/jennyquynh/ToDoList" rel="noopener noreferrer" target="_blank" className="contact-links">
+                                                    View in Github
+                                                </a>
+                                            </Button>
+                                        </div>
+                                    </Cell>
+                                </Grid>
+
 
                                 {/** --------------------------- QtGPA -------------------------- */}
                                 <Grid id="projectRow">

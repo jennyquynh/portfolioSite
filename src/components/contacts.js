@@ -31,7 +31,7 @@ class Contacts extends Component {
 
                                 <p>
                                     I am currently seeking software internships in Lafayette, Louisiana for the upcoming summer 
-                                    of 2020. I would love to become integrated into a team that will challenge me with relevent and purposeful
+                                    of 2020. I would love to become integrated into a team that will challenge me with interesting 
                                     projects. 
                                 </p>
 
