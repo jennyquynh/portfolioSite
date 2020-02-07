@@ -123,7 +123,7 @@ class Projects extends Component {
                                                 My contribution thus far includes:
 
                                                 <ul>
-                                                    <li>Created methods in a C# API to connect to the satellite’s SQL database</li>
+                                                    <li>Created methods in a .NET API to connect to the satellite’s SQL database</li>
                                                     <li>Created the login and registration page using Angular</li>
                                                 </ul>
                                             </p>
