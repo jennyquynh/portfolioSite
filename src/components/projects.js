@@ -123,9 +123,8 @@ class Projects extends Component {
                                                 My contribution thus far includes:
 
                                                 <ul>
-                                                    <li>creating an API to connect to a SQL database</li>
-                                                    <li>implementation of routing between pages via Express</li>
-                                                    <li>creation of the website's login and register page using HTML and Bootswatch</li>
+                                                    <li>Created methods in a C# API to connect to the satellite’s SQL database</li>
+                                                    <li>Created the login and registration page using Angular</li>
                                                 </ul>
                                             </p>
                                         </div>
