@@ -72,7 +72,7 @@ class Resume extends Component {
                                     <Grid id="education">
                                         <Cell col={6} id="education">
                                             <p>
-                                            Overall GPA: 3.74
+                                            Overall GPA: 3.78
                                             </p>
 
                                             <p>
@@ -110,7 +110,7 @@ class Resume extends Component {
 
                                     <Skills
                                     skill="JavaScript"
-                                    progress="50"/>
+                                    progress="60"/>
 
                                     <Skills
                                     skill="Command Line Git"
