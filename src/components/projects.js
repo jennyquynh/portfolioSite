@@ -10,6 +10,7 @@ import QtGPA from '../QtGPA.png'
 import SpotifySearcher from '../SpotifySearcher.png'
 import ToDoList from '../To-Do List.png'
 import cape3Site from '../cape3Site.png'
+import countrySearcher from '../countrySearcher.png'
 
 class Projects extends Component {
     render() {
@@ -188,6 +189,35 @@ class Projects extends Component {
 
                                             <Button id="projectLink">
                                                 <a href="https://github.com/jennyquynh/ToDoList" rel="noopener noreferrer" target="_blank" className="contact-links">
+                                                    View in Github
+                                                </a>
+                                            </Button>
+                                        </div>
+                                    </Cell>
+                                </Grid>
+
+
+                                {/** --------------------------- QtCountrySearcher -------------------------- */}
+                                <Grid id="projectRow">
+                                    {/** picture */}
+                                    <Cell col ={4}>
+                                        <img 
+                                        src={countrySearcher}
+                                        alt="Qt Country Searcher"
+                                        className="project-pic"/>
+                                    </Cell>
+
+                                    {/** body */}
+                                    <Cell col ={8}>
+                                        <div className="project_description">
+                                            <h3>Qt GPA Calculator</h3>
+
+                                            <p>
+                                                A simple Qt application that utilizes the REST Countries API to display data about an inputted country.
+                                            </p>
+
+                                            <Button id="projectLink">
+                                                <a href="https://github.com/jennyquynh/QtCountrySearcher" rel="noopener noreferrer" target="_blank" className="contact-links">
                                                     View in Github
                                                 </a>
                                             </Button>
