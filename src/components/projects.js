@@ -9,6 +9,7 @@ import QtNotepad from '../QtNotepad.png'
 import QtGPA from '../QtGPA.png'
 import SpotifySearcher from '../SpotifySearcher.png'
 import ToDoList from '../To-Do List.png'
+import cape3Site from '../cape3Site.png'
 
 class Projects extends Component {
     render() {
@@ -26,6 +27,40 @@ class Projects extends Component {
 
                             {/** --------------------------- body start -------------------------- */}
                             <div>
+
+                                {/** --------------------------- CAPE 3 Website -------------------------- */}
+                                <Grid id="projectRow">
+                                    {/** picture */}
+                                    <Cell col ={4}>
+                                        <img 
+                                        src={cape3Site}
+                                        alt="CloudSat 8 Firmware"
+                                        className="project-pic"/>
+                                    </Cell>
+
+                                    {/** body */}
+                                    <Cell col ={8}>
+                                        <div className="project_description">
+                                            <h3>CAPE 3 Website</h3>
+
+                                            <p>
+                                                CAPE 3 is the most recent satellite to be launched by the CAPE student organization. <br/><br/>
+                                                
+                                                The CAPE 3 website is currently being developed, and will allow users to login and view certain satellite data and edit
+                                                certain configurations based on their permissions. <br/><br/>
+                                                
+                                                My contribution thus far includes:
+
+                                                <ul>
+                                                    <li>Assisted in creating .NET API endpoints within the satellite's server</li>
+                                                    <li>Assisted in creating communication between server and SQL database using LINQ</li>
+                                                    <li>Created client-side website and established communication to the server via Angular</li>
+                                                    <li>Implemented the use of auth guards to protect pages that contain sensitive data</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                    </Cell>
+                                </Grid>
 
                                 {/** --------------------------- CloudSat 8 Firmware -------------------------- */}
                                 <Grid id="projectRow">
@@ -99,37 +134,6 @@ class Projects extends Component {
                                     </Cell>
                                 </Grid>
 
-                                {/** --------------------------- CAPE 3 Website-------------------------- */}
-                                <Grid id="projectRow">
-                                    {/** picture */}
-                                    <Cell col ={4}>
-                                        <img 
-                                        src={cape2}
-                                        alt="CloudSat 8 Firmware"
-                                        className="project-pic"/>
-                                    </Cell>
-
-                                    {/** body */}
-                                    <Cell col ={8}>
-                                        <div className="project_description">
-                                            <h3>CAPE 3 Website</h3>
-
-                                            <p>
-                                                CAPE 3 is the most recent satellite to be launched by the CAPE student organization. <br/><br/>
-                                                
-                                                The CAPE 3 website is currently being developed, and will allow users to login and view certain satellite data and edit
-                                                certain configurations based on their permissions. <br/><br/>
-                                                
-                                                My contribution thus far includes:
-
-                                                <ul>
-                                                    <li>Created methods in a .NET API to connect to the satellite’s SQL database</li>
-                                                    <li>Created the login and registration page using Angular</li>
-                                                </ul>
-                                            </p>
-                                        </div>
-                                    </Cell>
-                                </Grid>
 
                                 {/** --------------------------- Spotify Searcher -------------------------- */}
                                 <Grid id="projectRow">
