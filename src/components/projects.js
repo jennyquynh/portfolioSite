@@ -54,7 +54,7 @@ class Projects extends Component {
 
                                                 <ul>
                                                     <li>Assisted in creating .NET API endpoints within the satellite's server</li>
-                                                    <li>Assisted in establishing communication between the server and SQL database using LINQ</li>
+                                                    <li>Assisted in creating communication between server and SQL database using LINQ</li>
                                                     <li>Created client-side website and established communication to the server via Angular</li>
                                                     <li>Implemented the use of auth guards to protect pages that contain sensitive data</li>
                                                 </ul>
@@ -210,7 +210,7 @@ class Projects extends Component {
                                     {/** body */}
                                     <Cell col ={8}>
                                         <div className="project_description">
-                                            <h3>Qt Country Searcher</h3>
+                                            <h3>Qt GPA Calculator</h3>
 
                                             <p>
                                                 A simple Qt application that utilizes the REST Countries API to display data about an inputted country.

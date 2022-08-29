@@ -13,17 +13,18 @@ class About extends Component {
                                 <div className="aboutMe-body">
                                     <h3>Thank you for taking an interest in me!</h3>
 
-                                    <p>I'm Jenny Nguyen, a current junior in computer science at the University of Louisiana at Lafayette. I have a passion for software
-                                        development, whether it be simple mobile apps or large firmware projects.
+                                    <p>I'm Jenny Nguyen, a current software developer that has been programming commercially for over two years now. I graduated in 2021 with 
+                                        a bachelors degree in Computer Science.
                                     </p>
 
-                                    <p>The largest part of my college career has been CAPE, an student organization at UL that develops satellites and weather balloons.
-                                        Through CAPE I've learned how to work on a deadline, collaborate as a group, be a leader, take challenges head on, and most importantly, 
+                                    <p>The largest part of my college career was CAPE, an student organization at UL that develops satellites and weather balloons.
+                                        Through CAPE I learned how to work on a deadline, collaborate as a group, be a leader, take challenges head on, and most importantly, 
                                         the joy of completing a project with my team.
                                     </p>
 
-                                    <p>In the upcoming years of my life, I hope to find a career that will challenge and inspire me in the same way that CAPE has. I look forward to 
-                                        diversifying my programming knowledge and being a part of meaningful projects!
+                                    <p>After CAPE, the next chapter in my life was working for L3Harris Techonologies. I started my career there as an intern during my senior 
+                                        year of college, and was eventually hired there full time. There, I gained experience working in a fast paced, time critical environment
+                                        to produce autonomous maritime software. After a full year of contribution, I was promoted to a Software Developer II position.
                                     </p>
                                 </div>
                             </Cell>

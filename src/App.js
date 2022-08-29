@@ -13,7 +13,6 @@ function App() {
                 <Link id= "navLink" to="/aboutme">About Me</Link>
                 <Link id= "navLink" to="/resume">Resume</Link>
                 <Link id= "navLink" to="/projects">Projects</Link>
-                <Link id= "navLink" to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link id= "landingLinkMobileTitle" to="/portfolioSite">Jenny Nguyen</Link>}>
@@ -21,7 +20,6 @@ function App() {
                 <Link id= "landingLinkMobile" to="/aboutme">About Me</Link>
                 <Link id= "landingLinkMobile" to="/resume">Resume</Link>
                 <Link id= "landingLinkMobile" to="/projects">Projects</Link>
-                <Link id= "landingLinkMobile"to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>

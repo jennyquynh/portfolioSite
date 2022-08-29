@@ -13,6 +13,8 @@ class Skills extends Component {
 
                 <Cell col={10}>
                     <div style={{display: 'flex', marginTop: '7px'}}>
+                        <br />
+                        <br/>
                         <ProgressBar style={{margin: 'auto', width: '75%'}} progress={this.props.progress}/> 
                     </div>
                 </Cell>
